@@ -1,0 +1,25 @@
+.header {
+    background-color: #0288D1;
+    color: white;
+    text-align: center;
+}
+.header p {
+    margin-bottom: 0;
+}
+.colHeaders {
+    text-align: center;
+    color: white;
+    background-color: #4CAF50;
+}
+.left {
+    border-right: 3px solid white;
+}
+.srInput {
+    padding-top: 3%;
+}
+.srInput h4 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}

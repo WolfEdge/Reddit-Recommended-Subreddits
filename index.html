@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title>Subreddit Recommender</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Skeleton files -->
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="skeleton.css" />
+    <!-- ---- -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Reddit Subreddit Recommender</h2>
+        <p>Input the subreddit(s) you want recommendations from in the text boxes and click submit!</p>
+    </div>
+
+    <div class="colHeaders">
+        <div class="row">
+            <div class="left one-half column">
+                <h3>Subreddits</h3>
+            </div>
+            <div class="right one-half column">
+                <h3>Recommendations</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="srInput one-half column">
+            <form name="srInputForm" class="srInputForm">
+                <h4>Subreddits:</h4>
+                <input name="sr1" type="text" placeholder="e.g AskReddit" autofocus="yes">
+                <br>
+                <input name="sr2" type="text" placeholder="(optional)">
+                <br>
+                <input name="sr3" type="text" placeholder="(optional)">
+                <br>
+                <input name="sr4" type="text" placeholder="(optional)">
+                <br>
+                <input name="sr5" type="text" placeholder="(optional)">
+                <br>
+                <input class="button-primary" type="submit" value="submit">
+            </form>
+            <!--<form name="omitForm" class="omitForm">
+                <h4>Omit these recommendations:</h4>
+                <input name="omit1" type="text" placeholder="(optional)">
+                <br>
+                <input name="omit2" type="text" placeholder="(optional)">
+                <br>
+                <input name="omit3" type="text" placeholder="(optional)">
+                <br>
+            </form>-->
+        </div>
+
+        <div class="recommendationsCol one-half column"></div>
+    </div>
+</body>
+
+</html>
